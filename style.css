@@ -1,0 +1,82 @@
+:root {
+  --base-color: 200, 43%;
+}
+
+header {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+  background: hsl(var(--base-color), 20%);
+  padding: 6rem 20px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 20px 1.5rem 20px;
+}
+
+.navButton {
+  font-size: 2rem;
+  width: auto;
+  color: hsl(var(--base-color), 60%);
+  text-decoration: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-right: 1.5rem;
+  box-shadow: 1px 1px 5px 1px #888888;
+  position: relative;
+  transition: 0.8s ease;
+}
+
+.navButton:hover {
+  cursor: pointer;
+  color: white;
+  background: hsl(var(--base-color), 20%);
+  bottom: 8px;
+  box-shadow: 2px 2px 8px 2px #888888;
+  scale: 1.1;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  color: hsl(var(--base-color), 60%);
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: hsl(var(--base-color), 30%);
+}
+
+.mainPara {
+  padding: 18px;
+  transition: 1s ease;
+}
+
+.mainPara:hover {
+  background: hsl(var(--base-color), 20%);
+  padding: 30px;
+}
+
+.mainPara:hover h2,
+.mainPara:hover p {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-top: 1px solid black;
+}
+
+span {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: hsl(var(--base-color), 30%);
+}
